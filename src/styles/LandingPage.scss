@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.landing-page {
+  font-family: 'Poppins', sans-serif;
+  color: #1f2937; 
+  background: #f9fafb; 
+  line-height: 1.6;
+
+  /* HERO  */
+  .hero {
+    background: #2563eb;
+    color: #ffffff;
+    text-align: center;
+    padding: 120px 20px 100px;
+    border-bottom: 4px solid #1e40af;
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 1.15rem;
+      max-width: 650px;
+      margin: 0 auto 30px;
+      color: #dbeafe; 
+    }
+
+    .cta-btn {
+      background: #10b981; 
+      color: #ffffff;
+      font-weight: 600;
+      padding: 14px 40px;
+      border-radius: 6px;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      border: 2px solid #059669;
+    }
+
+    .cta-btn:hover {
+      background: #059669;
+      box-shadow: 0 6px 15px rgba(5,150,105,0.3);
+      transform: translateY(-2px);
+    }
+  }
+
+  /*  SECTIONS */
+  section {
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+    color: #1e3a8a; 
+  }
+
+  p.subheading {
+    font-size: 1rem;
+    color: #4b5563; 
+    margin-bottom: 30px;
+  }
+
+  /* CARDS GRID */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  }
+
+  .card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color:  #10b981
+  }
+
+  .card p {
+    font-size: 0.95rem;
+    color: #6b7280;
+  }
+
+  /* TECH STACK  */
+  .tech-stack {
+    background: #eff6ff; 
+    border-radius: 10px;
+    padding: 60px 20px;
+    border: 1px solid #dbeafe;
+
+    h3 { color: #2563eb; }
+    p { color: #1f2937; }
+  }
+
+  /*  FEATURES  */
+  .features {
+    background: #f0fdf4; 
+    border-radius: 10px;
+    padding: 60px 20px;
+    border: 1px solid #bbf7d0;
+
+    h3 { color: #10b981; }
+    p { color: #065f46; }
+  }
+
+  /*  CTA SECTION*/
+  .cta-section {
+    background: #2563eb; 
+    color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .cta-section h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+
+  .cta-section p {
+    color: #dbeafe;
+    margin-bottom: 25px;
+  }
+
+  .cta-section .cta-btn {
+    background: #ffffff;
+    color: #2563eb;
+    padding: 12px 40px;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    border: 2px solid #93c5fd;
+  }
+
+  .cta-section .cta-btn:hover {
+    background: #93c5fd;
+    color: #1e3a8a;
+    box-shadow: 0 6px 15px rgba(37,99,235,0.2);
+  }
+
+  /* ================= FOOTER ================= */
+  footer.footer {
+    background: #f3f4f6;
+    color: #1f2937;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 0.875rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  /* ================= RESPONSIVE ================= */
+  @media (max-width: 768px) {
+    h1 { font-size: 2.25rem; }
+    h2 { font-size: 1.75rem; }
+    .cards-grid { grid-template-columns: 1fr; }
+    .hero { padding: 80px 20px 60px; border-bottom-width: 4px; }
+    section { padding: 50px 20px; }
+    .cta-section { padding: 50px 20px; }
+  }
+}
