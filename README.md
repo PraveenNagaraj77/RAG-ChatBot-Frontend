@@ -91,8 +91,8 @@ This is the **frontend** part of a RAG-powered chatbot for news websites. It pro
 
 <ol>
   <li>Clone the repository
-    <pre><code>git clone &lt;[frontend-repo-url](https://github.com/PraveenNagaraj77/RAG-ChatBot-Frontend.git)&gt;
-cd &lt;repo-folder&gt;</code></pre>
+    <pre><code>git clone &lt;https://github.com/PraveenNagaraj77/RAG-ChatBot-Frontend.git&gt;
+</code></pre>
   </li>
   <li>Install dependencies
     <pre><code>npm install</code></pre>
